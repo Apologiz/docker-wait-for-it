@@ -5,5 +5,5 @@ Use [wait-for-it.sh](https://github.com/vishnubob/wait-for-it) in Docker.
 
 ## Example usage
 ```sh
-docker run willwill/wait-for-it www.google.com:80 -- echo "google is up"
+docker run ghcr.io/apologiz/wait-for-it:latest www.google.com:80 -- echo "google is up"
 ```
