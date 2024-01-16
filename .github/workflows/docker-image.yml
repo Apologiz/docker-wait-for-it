@@ -18,6 +18,6 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: https://ghcr.io/Apologiz/wait-for-it:$(date +%s)
+          tags: https://ghcr.io/Apologiz/wait-for-it:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
